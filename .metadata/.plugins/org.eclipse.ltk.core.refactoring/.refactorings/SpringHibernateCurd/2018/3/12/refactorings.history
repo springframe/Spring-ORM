@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.softmind.cfg&apos; to &apos;SpringHibernateCurd/src/main/java/com.softmind.cfg&apos;&#x0D;&#x0A;- Original project: &apos;SpringHibernateCurd&apos;&#x0D;&#x0A;- Destination element: &apos;SpringHibernateCurd/src/main/java/com.softmind.cfg&apos;&#x0D;&#x0A;- Original element: &apos;SpringHibernateCurd/src/main/java/com.softmind.cfg&apos;" description="Copy package" destination="/src\/main\/java&lt;com.softmind.cfg" element1="/src\/main\/java&lt;com.softmind.cfg" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1521806692137" version="1.0"/>
+</session>

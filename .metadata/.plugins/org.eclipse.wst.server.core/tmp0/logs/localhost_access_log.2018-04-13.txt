@@ -1,0 +1,7 @@
+127.0.0.1 - - [13/Apr/2018:08:41:29 +0530] "GET / HTTP/1.1" 404 1069
+0:0:0:0:0:0:0:1 - - [13/Apr/2018:08:41:31 +0530] "GET /SpringWithAngularJs/ HTTP/1.1" 200 1232
+0:0:0:0:0:0:0:1 - - [13/Apr/2018:08:41:31 +0530] "GET /SpringWithAngularJs/angular.min.js HTTP/1.1" 200 169920
+0:0:0:0:0:0:0:1 - - [13/Apr/2018:08:44:32 +0530] "GET /SpringWithAngularJs/ HTTP/1.1" 200 1232
+0:0:0:0:0:0:0:1 - - [13/Apr/2018:08:44:33 +0530] "GET /SpringWithAngularJs/angular.min.js HTTP/1.1" 200 169920
+0:0:0:0:0:0:0:1 - - [13/Apr/2018:08:44:33 +0530] "GET /favicon.ico HTTP/1.1" 404 1080
+0:0:0:0:0:0:0:1 - - [13/Apr/2018:08:45:06 +0530] "GET /SpringWithAngularJs/angular.min.js.map HTTP/1.1" 404 1107

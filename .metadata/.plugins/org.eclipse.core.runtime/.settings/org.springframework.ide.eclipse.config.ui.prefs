@@ -1,0 +1,5 @@
+//com.springsource.config.ui.prefs.activePageIndex\:/SpringORM(Xml+Anno)/src/main/java/com/contactmgmt/config/persistency-bean.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/SpringORMXml/src/main/java/com/contactmgmt/comman/application-context.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/SpringORMXml/src/main/java/com/contactmgmt/comman/persistency-bean.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/SpringORMXml/src/main/java/com/contactmgmt/comman/service-bean.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+eclipse.preferences.version=1

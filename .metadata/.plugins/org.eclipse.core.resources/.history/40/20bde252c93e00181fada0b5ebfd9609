@@ -1,0 +1,41 @@
+<script src="D:\STSWORKSPACE_Spring_Integration\SpringWithAngularJs\src\main\webapp\angular.min.js"></script>
+<script>
+var app=angular.module("myApp",[])
+
+app.controller("ctr1",function($scope,$http)
+{
+	$scope.login=function()
+	{
+		console.log("dataLoding...")
+     $http(
+    {
+     url:"http://localhost:3030/SpringWithAngularJs/",
+     method:"get",
+ 	params:
+	{	
+		"sno":$scope.sno,
+		"fname":$scope.fname,
+		"lname":$scope.lname,
+		"email":$scope.email,
+		"adress":$scope.adress,
+		"mbno":$scope.mbno
+	}
+    })		 
+    }
+  
+	console.log(params)
+}
+)
+</script>
+<body ng-app="myApp" ng-controller="ctr1">
+<table align="center" bgcolor='silver' border="1">
+<h1 style="background-color:black;color:red;text-align:center">RegistrationForm</h1>
+<tr><td>Sno:<td><input type="text" ng-model="sno"></td></tr>
+<tr><td>FName:<td><input type="text" ng-model="fname"></td></tr>
+<tr><td>LName:<td><input type="text" ng-model="lname"></td></tr>
+<tr><td>Email:<td><input type="text" ng-model="email"></td></tr>
+<tr><td>Adress:<td><input type="text" ng-model="adress"></td></tr>
+<tr><td>MobileNumber:<td><input type="text" ng-model="mbno"></td></tr>
+<tr><td colspan="2" align="center"><input type="button" value="Login" ng-click="login()"></td></tr>
+</table>
+</body>

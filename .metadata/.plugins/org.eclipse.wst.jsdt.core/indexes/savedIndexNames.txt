@@ -1,0 +1,12 @@
+INDEX VERSION 1.4+D:\STSWORKSPACE_Spring_Integration\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2148599444.index
+966554538.index
+3678414658.index
+3606973271.index
+3635155867.index
+810464648.index
+2211730396.index
+856368142.index
+3266174318.index
+91835200.index
+1456258747.index

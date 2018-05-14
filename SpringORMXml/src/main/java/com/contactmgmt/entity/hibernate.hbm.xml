@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+ 
+    <hibernate-mapping>
+    <class name="com.contactmgmt.entity.Contact" table="tb_contact" schema="springhibernate">
+    <id name="contactId" column="contact_Id" length="10">
+    <generator class="increment"/>
+    </id>
+    <property name="contactName" column="contact_Name" length="20"/>
+    <property name="adressLine1" column="adress_Line1" length="20"/>
+    <property name="adressLine2" column="adress_Line2" length="20"/>
+    <property name="city" column="city" length="20"/>
+    <property name="state" column="state" length="20"/>
+    <property name="zip" column="zip" length="12"/>
+    <property name="country" column="country" length="20"/>
+    <property name="mobileNumber" column="mobile_Number" length="11"/>
+    </class>
+    </hibernate-mapping>
+    
